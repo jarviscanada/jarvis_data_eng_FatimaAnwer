@@ -76,11 +76,11 @@ case "$cli_arg1" in
     docker container stop jrvs-psql
     echo "Container jrvs-psql stopped successfully."
     ;;
-  *)
+  *) # default case
     echo "Invalid command line argument provided."
 esac
 
-exit 0;
+exit 0
 
 
 
