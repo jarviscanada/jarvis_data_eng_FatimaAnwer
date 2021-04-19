@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# validate arguments
+if [ "$#" -ne 5 ]; then
+    echo "Illegal number of parameters"
+    exit 1
+fi
+
 # save CLI arguments in variables
 psql_host=$1
 psql_port=$2

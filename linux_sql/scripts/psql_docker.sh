@@ -6,7 +6,7 @@ sudo systemctl status docker || systemctl start docker
 # pull postgres image
 docker pull postgres
 
-# cmd line arguments saved in variables
+# save cmd line arguments in variables
 cli_arg1=$1
 db_username=$2
 db_password=$3
