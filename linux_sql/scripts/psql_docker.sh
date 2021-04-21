@@ -78,12 +78,5 @@ case "$cli_arg1" in
     ;;
   *)
     echo "Invalid command line argument provided."
+    exit 1
 esac
-
-exit 0
-
-
-
-
-
-
