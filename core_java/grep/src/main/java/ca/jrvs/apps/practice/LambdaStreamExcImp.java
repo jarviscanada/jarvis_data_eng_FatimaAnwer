@@ -52,7 +52,7 @@ public class LambdaStreamExcImp implements LambdaStreamExc{
 
     @Override
     public DoubleStream squareRootIntStream(IntStream intStream) {
-        return intStream.mapToDouble(num -> Math.sqrt(num));
+        return intStream.mapToDouble(Math::sqrt);
     }
 
     @Override
