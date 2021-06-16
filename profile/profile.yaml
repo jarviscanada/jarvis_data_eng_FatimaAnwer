@@ -1,0 +1,130 @@
+# Preferred name (Characters only)
+name: "Fatima Anwer"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_FatimaAnwer
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: To put myself in a few words, I am a detail-oriented, and an organized problem solver who loves to solve challenging real-world problems. I tend to go into the depths of a topic to master a skill. Some of my strengths include the ability to study the details of a new domain to develop sense of opportunities and challenges and sticking to the problem until it is solved. Collaborating with teams to deliver high quality work within assigned deadlines is something I really enjoy. Recently, I completed a Thesis-based Masters in Computer Science from the University of Regina. During my masters, I worked on an extensive Machine Learning project with an industry partner which involved executing the complete data science project lifecycle. Another interesting role I assumed was mentoring of undergraduate researchers at the university's Data Mining Research Lab. My deep passion to build applications for the software industry roots from the vision to make people independent and strong via technology and the impact it can have on their day to day lives. The best use of my skills would be to build technology for social good. I am looking to be part of a motivated team working with cutting-edge technologies where I can contribute to an organization's growth.       
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git/GitHub
+    - R
+    - Data Science
+    - Algorithms and Data Structures
+  # At least 5 skills
+  competent:
+    - Python
+    - Docker
+    - Maven
+    - PostgreSQL
+    - REST API
+    - MVC Design Pattern
+    - ArcGIS
+    - Time Series Analysis
+    - Machine Learning
+  # At least 5 skills
+  familiar:
+    - Spring and Springboot
+    - Swift/iOS Programming
+    - Data Visualization (R and Python libraries)
+    - Google Cloud Platform
+    - Computer Networks
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implemented a Linux clustering monitoring agent to monitor, collect and analyze data from host machines in a ten node cluster over a network in a PostgreSQL database provisioned using docker container using bash scripts and crontab to automate the script's execution. Created the SQL queries for analyzing the collected data for better business decisions and resources planning.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "FireInform: Forest Fire Occurrence Prediction using Multivariate Time Series Classification."
+    #URL is optional
+    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Machine Learning"
+    git_url:
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2021-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Graduate Researcher"
+    company: "Data Mining Lab, University of Regina"
+    duration: "2017-2020"
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+
+#List of edcuation
+education: 
+  - school_name: "University of Regina"
+    duration: "2017-2021"
+    degree: "Master of Computer Science"
+    department: "Faculty of Graduate Studies and Research"
+    # optional
+    awards_achievements: 
+      - "Masters Scholarship Award"
+      - "Double Graduate Teaching Assistantship"
+  - school_name: "Forman Christian College"
+    duration: "2012-2016"
+    degree: "Bachelors of Science (Honors)"
+    department: "Computer Science"
+    awards_achievements: 
+      - "Cum Laude Honors Graduation Award"
+      - "Vice Rector's List 2015, 2016"
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Udacity Machine Learning (2019)"
+  - title: "Awards"
+    bullets:
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player"
+      - "Competitive gaming"
+      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
