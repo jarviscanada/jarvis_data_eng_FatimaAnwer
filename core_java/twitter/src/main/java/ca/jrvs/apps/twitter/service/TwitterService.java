@@ -4,17 +4,20 @@ import ca.jrvs.apps.twitter.Util.JsonUtil;
 import ca.jrvs.apps.twitter.dao.CrdDao;
 import ca.jrvs.apps.twitter.model.Tweet;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import java.util.stream.Collectors;
 
+@org.springframework.stereotype.Service
 public class TwitterService implements Service{
 
     private CrdDao dao;
     private static final int TWEET_CHAR_LIMIT = 140;
 
+    @Autowired
     public TwitterService(CrdDao dao){
         this.dao = dao;
     }
