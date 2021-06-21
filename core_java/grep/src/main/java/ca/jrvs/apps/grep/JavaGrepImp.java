@@ -32,8 +32,8 @@ public class JavaGrepImp implements JavaGrep{
 
         try{
             javaGrepImp.process();
-        }catch (Exception ex){
-            javaGrepImp.logger.error(ex.getMessage(), ex);
+        }catch (Exception e){
+            javaGrepImp.logger.error("Error in executing grep implementation process", e);
         }
     }
 
@@ -97,9 +97,9 @@ public class JavaGrepImp implements JavaGrep{
             return allLines;
 
         }catch (FileNotFoundException e){
-            throw new IllegalArgumentException("File does not exist");
+            throw new IllegalArgumentException("File does not exist", e);
         }catch (IOException e){
-            throw new IllegalArgumentException("Input file is not a file");
+            throw new IllegalArgumentException("Input file is not a file", e);
         }
     }
 

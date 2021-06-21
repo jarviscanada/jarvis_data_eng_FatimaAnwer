@@ -29,8 +29,8 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
 
             try {
                 javaGrepLambdaImp.process();
-            } catch (Exception ex) {
-                ex.printStackTrace();
+            } catch (Exception e) {
+                javaGrepLambdaImp.logger.error("Error in executing grep implementation process", e);
             }
         }
     }
@@ -55,9 +55,11 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
     @Override
     public List<String> readLines(File inputFile) throws IllegalArgumentException {
 
+        Path path = null;
         try{
-            Path path = Paths.get(inputFile.getAbsolutePath());
+            path = Paths.get(inputFile.getAbsolutePath());
             return Files.lines(path).collect(Collectors.toList());
+
         }catch (IOException e){
             logger.error("Lines from the file cannot be read", e);
         }
