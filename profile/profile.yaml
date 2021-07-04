@@ -1,0 +1,134 @@
+# Preferred name (Characters only)
+name: "Fatima Anwer"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_FatimaAnwer
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I am detail-oriented, and an inquisitive problem solver who loves to build simple solutions for complex real-world problems. I completed my master's degree in Computer Science from the University of Regina with a focus on data mining in March 2021. During my graduate studies, I worked on an end-to-end data science application that predicts the occurrences of forest fires using weather, historical fires, and geospatial data. Subsequently, I published my Thesis titled FireInform - An Approach to Predict Hourly Forest Fire Occurrences Using Multivariate Time Series Classification. My experience has equipped me with an understanding of business requirements gathering, designing technical solutions, project management, implementing software, and communicating data-driven insights to the management. The project was a joint venture with the Social Innovation Hub, ISM Canada. I also enjoyed mentoring undergraduate researchers at the Data Mining Research Lab. As an Applications and Data Engineer at Jarvis, I learnt tools and skills including but not limited to software design patterns, core Java programming, version control, building microservices, testing, and deployment. Collaborating within and across teams to address challenges at the organizational or personal level helps me foster a productive work environment overall. I am a quick learner who adapts to fast-paced work environments. One of my greatest drives to work in the software industry is the positive impact technology can have on a large scale for the social good. My passion lies in leveraging the power of data and cutting-edge technology to improve people's lives on a day-to-day basis. In future, I plan to dedicate time to initiatives for Women and Girls in Tech.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - R
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git/GitHub
+    - Data Science
+    - Algorithms and Data Structures
+  # At least 5 skills
+  competent:
+    - Python
+    - Docker
+    - Maven
+    - PostgreSQL
+    - MVC Design Pattern
+    - Data Visualization (R and Python libraries)
+    - Time Series Analysis
+    - Machine Learning
+    - ArcGIS
+  # At least 5 skills
+  familiar:
+    - Spring and Springboot
+    - REST APIs
+    - Google Cloud Platform
+    - Computer Networks
+    - Swift/iOS Programming
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implemented a Linux clustering monitoring agent to monitor, collect and analyze data from host machines in a multiple node cluster over a network in a PostgreSQL database provisioned using docker container using bash scripts and crontab to automate the script's execution. Created the SQL queries for analyzing the collected data for better business decisions and resources planning.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Built an App that allows users to post, view, or delete Tweets from the Command Line Interface. The Application interacts with the Twitter REST API to send and receive HTTP Requests and Responses by using the HTTPClient and OAuth 1.0 libraries. Jackson library was used to serialize Java objects to JSON and vice versa. The App conforms to the MVC Design Pattern. Apache Maven was used to manage project dependencies and the app was deployed using Docker. Spring Framework was used to manage component dependencies."
+      - "JDBC App: Developed a Java App to access a Postgres database using the Java Database Connectivity (JDBC) API. The instance of the Postgres database runs in a Docker container. Other technologies used include IntelliJ IDE and Maven for dependency management. The psql client tool is used to interact directly with the Postgres database instance in the terminal."
+      - "Grep App: Developed a Java App that simulates the Linux grep command searching for a specified text pattern in an input file. The App is implemented using Java I/O, such as FileReader, BufferedReader, FileWriter, and BufferedWriter, Functional Interfaces and Lambda Expressions. The project is built in IntelliJ using Maven. The App is Dockerized and pushed to Docker Hub."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: "Developed a Trading App with the microservice architecture and Springboot framework. The application allows users to manage client profiles and accounts, monitor portfolio performance, and trade securities. Java 8 and Springboot are used to implement the REST API which handles core business logic, such as managing trader profiles. The Springboot app fetches data from IEX Cloud which offers free market data (e.g. stock price) via its REST API. All data is persisted in a PostgreSQL database. Testing is performed using JUnit4 and Mockito."
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: "In Progress"
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: "Not Started"
+  - name: "Spark"
+    git_url: "/spark"
+    description: "Not Started"
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: "Not Started"
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "FireInform: Forest Fire Occurrence Prediction Using Multivariate Time Series Classification"
+    #URL is optional
+    git_url:
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implemented end-to-end data science workflow to solve the problem of destructive forest fires. The output of this work is a model that predicts occurrences of naturally caused forest fires at hourly intervals in manageable regions across Saskatchewan with an average accuracy of 88% and an average true positive rate of 92.5%. The three machine learning models trained were Decision Trees, Dynamic Time Warping KNN, and Hidden Markov Model. The tech stack included Python, R, ArcGIS, Jupyter Notebook, and RStudio.
+  - name: "University Grading Management System"
+    git_url:
+    description: Designed and implemented a Relational Database schema by creating relations using functional and multivalued dependencies. Developed a web application using HTML, CSS, JavaScript, Java, and MySQL.
+  - name: "TutoReal - iOS Application"
+    git_url:
+    description: Designed user interfaces and developed a mobile application that allowed users to search for tutors in real-time, book appointments with tutors, and allows both tutors and students to cancel appointments. The App was coded in Swift programming language which conformed to the Model-View-Controller design pattern.
+  - name: "Design and Development of a Computer Vision Aided System to Detect Cotton Crop Diseases"
+    git_url:
+    description: Developed a Desktop Application using MATLAB to classify cotton crop leaf images based on disease class detected by image processing algorithms.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2021-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Implemented multiple progressive projects in a scrum environment following the Software Development Life Cycle using the agile methodology. Exposure includes architecture design, implementation via Bash scripts and Java, using IntelliJ with Maven build automation, and JUnit testing."
+  - title: "Graduate Researcher"
+    company: "Data Mining Lab, University of Regina"
+    duration: "2017-2021"
+    description: "Graduate Researcher, Lab Instructor, Teaching Assistant, Mentor."
+
+#List of edcuation
+education: 
+  - school_name: "University of Regina"
+    duration: "2017-2021"
+    degree: "Master of Computer Science"
+    department: "Faculty of Graduate Studies and Research"
+    # optional
+    awards_achievements: 
+      - "Masters Scholarship Award (2017-2021)"
+      - "Graduate Teaching Assistantship Award"
+  - school_name: "Forman Christian College"
+    duration: "2012-2016"
+    degree: "Bachelors of Science (Honors)"
+    department: "Computer Science"
+    awards_achievements: 
+      - "Cum Laude Honors Graduation Award"
+      - "Vice Rector's List 2015, 2016"
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "MILA – Quebec Artificial Intelligence Institute, Deep Learning and Reinforcement Learning Summer School 2020."
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Volunteer, The Citizens' Foundation: Taught Math and Science to 5th, 6th , and 7th Graders in a remote village in Pakistan."
+      - "Junior Ambassador, University of Regina: Volunteering for various on-campus activities."
+      - "Volunteer, Advancement Office at Forman Christian College: Fund Raising for need-based scholarships."
+      - "Event Registrations Head, Forman Computing Society."
